@@ -1,6 +1,7 @@
 # mpv portable_config
 
 ## 저장 위치
+
 이 저장소는 **`mpv.exe`가 있는 폴더 안에 `portable_config`라는 이름으로** 넣어야 합니다.
 ```
 mpv.exe가 있는 폴더/portable_config
