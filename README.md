@@ -1,42 +1,15 @@
 # mpv portable_config
 
-mpv 개인 설정 모음입니다.
-
-## 저장 위치 (중요)
-
+## 저장 위치
 이 저장소는 **`mpv.exe`가 있는 폴더 안에 `portable_config`라는 이름으로** 넣어야 합니다.
-
 ```
 mpv.exe가 있는 폴더/portable_config
 ```
-
 내 PC 경로: `여기에 실제 경로를 적기`  (예: `D:/Programs/mpv/portable_config`)
-
 - 폴더 이름은 정확히 `portable_config`여야 합니다. 이름을 바꾸면 mpv가 인식하지 못합니다.
 - 설치 후 mpv를 재시작해야 적용됩니다.
 
-### 설치
-
-```bash
-cd mpv.exe가_있는_폴더
-git clone <이 저장소 주소> portable_config
-```
-
-## 구조
-
-```
-portable_config/
-├─ README.md
-├─ .gitignore
-├─ input.conf        단축키 설정
-├─ mpv.conf          재생 옵션
-└─ scripts/          Lua 스크립트
-```
-
-`cache/` 폴더는 mpv가 자동 생성하는 셰이더 캐시이므로 저장소에 포함하지 않습니다(`.gitignore`).
-
 ## 단축키
-
 | 키 | 동작 |
 |---|---|
 | `SPACE` | 재생/일시정지 |
