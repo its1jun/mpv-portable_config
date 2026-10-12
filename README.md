@@ -5,6 +5,9 @@ mpv.exe가 있는 폴더/portable_config
 ```
 - 폴더 이름은 정확히 `portable_config`여야 합니다. 이름을 바꾸면 mpv가 인식하지 못합니다.
 - 설치 후 mpv를 재시작해야 적용됩니다.
+```mpv.exe 찾기
+where.exe mpv
+```
 
 ## 단축키
 | 키 | 동작 |
